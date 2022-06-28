@@ -253,3 +253,9 @@ rom/romfs/Unit/S2_Rail_Black.sarc
 rom/romfs/Unit/S2_Rail_Gray.sarc
 rom/romfs/Unit/S2_Rail_White.sarc
 rom/romfs/Unit/S2_Sabaku.sarc
+rom/exefs/code.bin
+rom/exheader.bin
+code/bak/code.bin
+code/bak/exheader.bin
+code/code.bin
+code/exheader.bin

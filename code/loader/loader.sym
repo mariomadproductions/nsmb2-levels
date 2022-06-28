@@ -1,0 +1,56 @@
+
+/home/user/game/mod/nsmb2-asm/PatchTemplate/loader/loader.elf:     file format elf32-littlearm
+
+SYMBOL TABLE:
+0056a520 l    d  .text	00000000 .text
+0056a694 l    d  .init	00000000 .init
+0056a6ac l    d  .fini	00000000 .fini
+0056a6c4 l    d  .rodata.all_implied_fbits	00000000 .rodata.all_implied_fbits
+0056a70c l    d  .eh_frame	00000000 .eh_frame
+006c5610 l    d  .init_array	00000000 .init_array
+006c5614 l    d  .fini_array	00000000 .fini_array
+006c5618 l    d  .data.__dso_handle	00000000 .data.__dso_handle
+006c561c l    d  .bss.completed.1	00000000 .bss.completed.1
+006c5620 l    d  .bss.object.0	00000000 .bss.object.0
+00000000 l    d  .ARM.attributes	00000000 .ARM.attributes
+00000000 l    d  .comment	00000000 .comment
+00000000 l    d  .debug_info	00000000 .debug_info
+00000000 l    d  .debug_abbrev	00000000 .debug_abbrev
+00000000 l    d  .debug_loclists	00000000 .debug_loclists
+00000000 l    d  .debug_aranges	00000000 .debug_aranges
+00000000 l    d  .debug_rnglists	00000000 .debug_rnglists
+00000000 l    d  .debug_line	00000000 .debug_line
+00000000 l    d  .debug_str	00000000 .debug_str
+00000000 l    d  .debug_frame	00000000 .debug_frame
+00000000 l    d  .debug_line_str	00000000 .debug_line_str
+00000000 l    df *ABS*	00000000 crti.o
+00000000 l    df *ABS*	00000000 crtstuff.c
+0056a6c4 l     O .rodata.all_implied_fbits	00000000 all_implied_fbits
+0056a70c l     O .eh_frame	00000000 __EH_FRAME_BEGIN__
+0056a520 l     F .text	00000000 __do_global_dtors_aux
+006c561c l     O .bss.completed.1	00000000 completed.1
+006c5614 l     O .fini_array	00000000 __do_global_dtors_aux_fini_array_entry
+0056a560 l     F .text	00000000 frame_dummy
+006c5620 l     O .bss.object.0	00000000 object.0
+006c5610 l     O .init_array	00000000 __frame_dummy_init_array_entry
+00000000 l    df *ABS*	00000000 loader.c
+00000000 l    df *ABS*	00000000 svc.o
+00000000 l    df *ABS*	00000000 crtstuff.c
+0056a6e8 l     O .rodata.all_implied_fbits	00000000 all_implied_fbits
+0056a770 l     O .eh_frame	00000000 __FRAME_END__
+00000000 l    df *ABS*	00000000 crtn.o
+0056a520 g       .text	00000000 __text_start
+006c5618 g     O .data.__dso_handle	00000000 .hidden __dso_handle
+0056a64c g     F .text	00000000 svcOpenProcess
+0056a694 g     F .init	00000000 _init
+0056a660 g     F .text	00000000 svcGetProcessId
+0056a67c g     F .text	00000000 svcControlProcessMemory
+006c5610 g       .init_array	00000000 __data_end
+0056a694 g       .text	00000000 __text_end
+0056a6ac g     F .fini	00000000 _fini
+0056a58c g     F .text	0000007c LoaderMain
+0056a608 g     F .text	00000044 getCurrentProcessHandle
+0056a674 g     F .text	00000000 svcBreak
+006c5610 g       .init_array	00000000 __data_start
+
+

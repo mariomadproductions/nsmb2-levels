@@ -1,0 +1,5 @@
+romfs2sdmc:
+    type:   branch
+    link:   false
+    addr:   0x0013FC74
+    func:   TryOpenFile_Payload
