@@ -1,0 +1,60 @@
+
+/home/user/game/mod/nsmb2-asm/PatchTemplate/newcode.elf:     file format elf32-littlearm
+
+SYMBOL TABLE:
+006c5000 l    d  .text	00000000 .text
+006c5580 l    d  .init	00000000 .init
+006c5598 l    d  .fini	00000000 .fini
+006c55b0 l    d  .rodata.all_implied_fbits	00000000 .rodata.all_implied_fbits
+006c55f8 l    d  .eh_frame	00000000 .eh_frame
+006c55fc l    d  .init_array	00000000 .init_array
+006c5600 l    d  .fini_array	00000000 .fini_array
+006c5604 l    d  .data.__dso_handle	00000000 .data.__dso_handle
+006c5608 l    d  .bss.completed.1	00000000 .bss.completed.1
+006c560c l    d  .bss.object.0	00000000 .bss.object.0
+00000000 l    d  .ARM.attributes	00000000 .ARM.attributes
+00000000 l    d  .comment	00000000 .comment
+00000000 l    d  .debug_line	00000000 .debug_line
+00000000 l    d  .debug_line_str	00000000 .debug_line_str
+00000000 l    d  .debug_info	00000000 .debug_info
+00000000 l    d  .debug_abbrev	00000000 .debug_abbrev
+00000000 l    d  .debug_aranges	00000000 .debug_aranges
+00000000 l    d  .debug_str	00000000 .debug_str
+00000000 l    df *ABS*	00000000 crti.o
+00000000 l    df *ABS*	00000000 crtstuff.c
+006c55b0 l     O .rodata.all_implied_fbits	00000000 all_implied_fbits
+006c55f8 l     O .eh_frame	00000000 
+006c50f0 l     F .text	00000000 __do_global_dtors_aux
+006c5608 l     O .bss.completed.1	00000000 completed.1
+006c5600 l     O .fini_array	00000000 __do_global_dtors_aux_fini_array_entry
+006c5130 l     F .text	00000000 frame_dummy
+006c560c l     O .bss.object.0	00000000 object.0
+006c55fc l     O .init_array	00000000 __frame_dummy_init_array_entry
+00000000 l    df *ABS*	00000000 romfs2sdmc.o
+006c5000 l       .text	00000000 MemCopy
+006c50a0 l       .text	00000000 exit
+006c5098 l       .text	00000000 abort
+006c50b0 l       .text	00000000 check_mount_sd
+006c5180 l       .text	00000000 path_buf
+006c5166 l       .text	00000000 sdmount_wchar
+006c517c l       .text	00000000 sdmount_wchar_end
+0013fc70 l       *ABS*	00000000 *ABS*0x13fc70
+006c50a4 l       .text	00000000 success
+0013fc78 l       *ABS*	00000000 *ABS*0x13fc78
+0013fcfc l       *ABS*	00000000 *ABS*0x13fcfc
+006c5165 l       .text	00000000 sdmounted
+006c50dc l       .text	00000000 skip_mount
+006c5160 l       .text	00000000 sdmount
+001416e0 l       *ABS*	00000000 *ABS*0x1416e0
+00000000 l    df *ABS*	00000000 crtstuff.c
+006c55d4 l     O .rodata.all_implied_fbits	00000000 all_implied_fbits
+006c55f8 l     O .eh_frame	00000000 __FRAME_END__
+00000000 l    df *ABS*	00000000 crtn.o
+006c5000 g       .text	00000000 __text_start
+006c5604 g     O .data.__dso_handle	00000000 .hidden __dso_handle
+006c5580 g     F .init	00000000 _init
+006c5580 g       .text	00000000 __text_end
+006c5014 g       .text	00000000 TryOpenFile_Payload
+006c5598 g     F .fini	00000000 _fini
+
+
